@@ -1,0 +1,4 @@
+*VarTra
+isInstanceVariableNode
+
+	^ false

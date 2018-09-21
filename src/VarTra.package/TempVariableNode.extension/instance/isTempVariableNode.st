@@ -1,0 +1,4 @@
+*VarTra
+isTempVariableNode
+
+	^ true

@@ -1,0 +1,14 @@
+{
+	"category" : "VarTra-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LitVarSubscriptionsBindings" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VarTra",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

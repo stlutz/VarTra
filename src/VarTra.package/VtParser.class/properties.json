@@ -1,0 +1,14 @@
+{
+	"category" : "VarTra-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VtParser",
+	"pools" : [
+		 ],
+	"super" : "Parser",
+	"type" : "normal" }

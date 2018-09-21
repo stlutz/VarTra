@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"litVarSubscriptionsBindings" : "sl 9/21/2018 11:15",
+		"notify:instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/21/2018 13:34",
+		"notify:litVar:changedFrom:to:inContext:" : "sl 9/21/2018 13:21",
+		"notify:tempVarNamed:changedFrom:to:inContext:" : "sl 9/21/2018 13:36",
+		"reset" : "sl 9/21/2018 15:35",
+		"subscriptionsBindingForLitVar:" : "sl 9/21/2018 15:43" },
+	"instance" : {
+		 } }

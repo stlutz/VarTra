@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assignment:" : "sl 9/20/2018 11:43",
+		"notify:thatInstanceVariable:changedTo:" : "sl 9/21/2018 14:13",
+		"notify:thatLiteralVariable:changedTo:" : "sl 9/21/2018 14:10",
+		"notify:thatTempVariable:changedTo:" : "sl 9/21/2018 14:22",
+		"notify:thatVariable:changedTo:" : "sl 9/21/2018 14:23",
+		"subscriptionsBindingFor:" : "sl 9/21/2018 14:35",
+		"trackedAssignmentTo:sourceRange:" : "sl 9/21/2018 15:45",
+		"untrackedAssignmentTo:sourceRange:" : "sl 9/18/2018 14:52" } }
