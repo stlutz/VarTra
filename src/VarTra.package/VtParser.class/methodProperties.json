@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assignment:" : "sl 9/20/2018 11:43",
-		"notify:thatInstanceVariable:changedTo:" : "sl 9/21/2018 14:13",
-		"notify:thatLiteralVariable:changedTo:" : "sl 9/21/2018 14:10",
-		"notify:thatTempVariable:changedTo:" : "sl 9/21/2018 14:22",
+		"assignment:" : "sl 9/22/2018 13:46",
+		"changeNotificationSelector" : "sl 9/22/2018 12:51",
+		"notify:thatInstanceVariable:changedTo:" : "sl 9/22/2018 12:48",
+		"notify:thatLiteralVariable:changedTo:" : "sl 9/21/2018 18:30",
+		"notify:thatTempVariable:changedTo:" : "sl 9/21/2018 18:30",
 		"notify:thatVariable:changedTo:" : "sl 9/21/2018 14:23",
 		"subscriptionsBindingFor:" : "sl 9/21/2018 14:35",
 		"trackedAssignmentTo:sourceRange:" : "sl 9/21/2018 15:45",

@@ -1,0 +1,14 @@
+{
+	"category" : "VarTra-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VtDecompilerConstructor",
+	"pools" : [
+		 ],
+	"super" : "DecompilerConstructor",
+	"type" : "normal" }

@@ -8,7 +8,12 @@ assignment: varNode
 	self advance.
 	self expression ifFalse: [^self expected: 'Expression'].
 	parseNode := varNode isLiteralVariableNode
-		ifTrue: [self trackedAssignmentTo: varNode sourceRange: (start to: self endOfLastToken)]
+		ifTrue: [
+			VtTrackedAssignmentNode new
+				variable: varNode
+				value: parseNode
+				from: encoder
+				sourceRange: (start to: self endOfLastToken)]
 		ifFalse: [self untrackedAssignmentTo: varNode sourceRange: (start to: self endOfLastToken)].
 	varNode nowHasDef.
 	^true

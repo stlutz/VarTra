@@ -1,10 +1,16 @@
 {
 	"class" : {
+		"compileMethodsWithVariableTracking" : "sl 9/27/2018 10:08",
+		"compileMethodsWithVariableTracking:" : "sl 9/27/2018 10:08",
+		"globalCompilerClass" : "sl 9/27/2018 10:17",
 		"litVarSubscriptionsBindings" : "sl 9/21/2018 11:15",
 		"notify:instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/21/2018 13:34",
-		"notify:litVar:changedFrom:to:inContext:" : "sl 9/21/2018 13:21",
+		"notify:litVar:changedFrom:to:inContext:" : "sl 9/21/2018 18:52",
 		"notify:tempVarNamed:changedFrom:to:inContext:" : "sl 9/21/2018 13:36",
 		"reset" : "sl 9/21/2018 15:35",
-		"subscriptionsBindingForLitVar:" : "sl 9/21/2018 15:43" },
+		"subscribe:toLitVar:" : "sl 9/21/2018 18:51",
+		"subscriptionsBindingForLitVar:" : "sl 9/27/2018 11:38",
+		"subscriptionsBindingKeyPrefix" : "sl 9/27/2018 11:38",
+		"subscriptionsForLitVar:" : "sl 9/21/2018 18:48" },
 	"instance" : {
 		 } }

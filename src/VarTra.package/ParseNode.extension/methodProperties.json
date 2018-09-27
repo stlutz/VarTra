@@ -4,4 +4,6 @@
 	"instance" : {
 		"isInstanceVariableNode" : "sl 9/18/2018 14:42",
 		"isLiteralVariableNode" : "sl 9/18/2018 14:41",
-		"isTempVariableNode" : "sl 9/18/2018 14:42" } }
+		"isTempVariableNode" : "sl 9/18/2018 14:42",
+		"isTrackedAssignmentNode" : "sl 9/22/2018 13:30",
+		"nodesDetect:ifNone:" : "sl 9/27/2018 11:56" } }

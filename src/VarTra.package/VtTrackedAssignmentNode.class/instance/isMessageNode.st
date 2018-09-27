@@ -1,0 +1,4 @@
+testing
+isMessageNode
+
+	self halt.

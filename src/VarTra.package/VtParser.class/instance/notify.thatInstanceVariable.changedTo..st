@@ -3,10 +3,10 @@ notify: subscriptionsNode thatInstanceVariable: varNode changedTo: valueNode
 
 	^ MessageNode new
 		receiver: (encoder encodeVariable: 'VarTra')
-		selector: #notify:instVar:ofObject:changedFrom:to:inContext:
+		selector: self changeNotificationSelector
 		arguments: {
-			encoder encodeLiteral: (subscriptionsNode key).
-			encoder encodeLiteral: (varNode name).
+			encoder encodeLiteral: subscriptionsNode key.
+			encoder encodeLiteral: varNode name.
 			encoder encodeVariable: 'self'.
 			varNode.
 			valueNode.

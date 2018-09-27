@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"CompileMethodsWithVariableTracking",
 		"LitVarSubscriptionsBindings" ],
 	"commentStamp" : "",
 	"instvars" : [

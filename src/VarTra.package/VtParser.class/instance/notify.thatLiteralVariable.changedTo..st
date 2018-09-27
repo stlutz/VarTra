@@ -5,8 +5,8 @@ notify: subscriptionsNode thatLiteralVariable: varNode changedTo: valueNode
 		receiver: (encoder encodeVariable: 'VarTra')
 		selector: #notify:litVar:changedFrom:to:inContext:
 		arguments: {
-			encoder encodeLiteral: (subscriptionsNode key).
-			encoder encodeLiteral: (varNode key).
+			encoder encodeLiteral: subscriptionsNode key.
+			encoder encodeLiteral: varNode key.
 			varNode.
 			valueNode.
 			encoder encodeVariable: 'thisContext'}
