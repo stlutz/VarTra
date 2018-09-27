@@ -1,4 +1,4 @@
 accessing
 sourceRange
 
-	^ sourceRange
+	^ sourceRange ifNil: [self halt]

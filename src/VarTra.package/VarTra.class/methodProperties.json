@@ -1,16 +1,22 @@
 {
 	"class" : {
-		"compileMethodsWithVariableTracking" : "sl 9/27/2018 10:08",
+		"compileMethodsWithVariableTracking" : "sl 9/27/2018 14:06",
 		"compileMethodsWithVariableTracking:" : "sl 9/27/2018 10:08",
+		"compilerClass" : "sl 9/27/2018 16:13",
 		"globalCompilerClass" : "sl 9/27/2018 10:17",
+		"instVarSubscriptionsBindings" : "sl 9/27/2018 14:12",
+		"instVarSubscriptionsBindingsForClass:" : "sl 9/27/2018 14:15",
 		"litVarSubscriptionsBindings" : "sl 9/21/2018 11:15",
-		"notify:instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/21/2018 13:34",
+		"notify:instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/27/2018 15:56",
 		"notify:litVar:changedFrom:to:inContext:" : "sl 9/21/2018 18:52",
 		"notify:tempVarNamed:changedFrom:to:inContext:" : "sl 9/21/2018 13:36",
-		"reset" : "sl 9/21/2018 15:35",
+		"reset" : "sl 9/27/2018 15:15",
+		"subscribe:toInstVarNamed:of:" : "sl 9/27/2018 14:58",
 		"subscribe:toLitVar:" : "sl 9/21/2018 18:51",
+		"subscriptionsBindingForInstVarNamed:ofClass:" : "sl 9/27/2018 16:22",
 		"subscriptionsBindingForLitVar:" : "sl 9/27/2018 11:38",
-		"subscriptionsBindingKeyPrefix" : "sl 9/27/2018 11:38",
+		"subscriptionsBindingKeyPrefix" : "sl 9/27/2018 16:21",
+		"subscriptionsForInstVarNamed:of:" : "sl 9/27/2018 15:13",
 		"subscriptionsForLitVar:" : "sl 9/21/2018 18:48" },
 	"instance" : {
 		 } }

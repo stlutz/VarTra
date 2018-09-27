@@ -1,4 +1,4 @@
-as yet unclassified
+subscriptions management
 subscriptionsBindingForLitVar: litVarBinding
 
 	^ self litVarSubscriptionsBindings

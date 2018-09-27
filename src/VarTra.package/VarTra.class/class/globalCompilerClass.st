@@ -1,4 +1,4 @@
-compiling
+private
 globalCompilerClass
 
 	^ self compileMethodsWithVariableTracking

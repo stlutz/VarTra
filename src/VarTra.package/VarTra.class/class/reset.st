@@ -1,4 +1,5 @@
-as yet unclassified
+private
 reset
 	"VarTra reset"
-	LitVarSubscriptionsBindings := nil
+	LitVarSubscriptionsBindings := nil.
+	InstVarSubscriptionsBindings := nil

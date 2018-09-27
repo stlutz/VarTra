@@ -1,4 +1,4 @@
-as yet unclassified
+notifying subscribers
 notify: subscriptionsBinding instVarNamed: varName ofObject: source changedFrom: oldValue to: newValue inContext: aContext
 
 	oldValue == newValue ifFalse: [
@@ -18,6 +18,6 @@ notify: subscriptionsBinding instVarNamed: varName ofObject: source changedFrom:
 				hasSubscribers ifFalse: [
 					subscriptionsBinding value removeKey: source]]
 			ifAbsent: ["this might not be a good idea for instance variables"
-				subscriptionsBinding slowSize = 0 ifTrue: [
+				subscriptionsBinding value slowSize = 0 ifTrue: [
 					subscriptionsBinding value: nil]]].
 	^ newValue

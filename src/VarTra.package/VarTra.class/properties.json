@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"CompileMethodsWithVariableTracking",
+		"InstVarSubscriptionsBindings",
 		"LitVarSubscriptionsBindings" ],
 	"commentStamp" : "",
 	"instvars" : [

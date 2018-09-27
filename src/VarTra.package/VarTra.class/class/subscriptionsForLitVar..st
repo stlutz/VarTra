@@ -1,4 +1,4 @@
-subscribing
+subscriptions management
 subscriptionsForLitVar: binding
 
 	| subscriptionsBinding |

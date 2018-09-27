@@ -21,3 +21,5 @@ trackedAssignmentNode: encoder subscriptions: subscriptionsNode
 			encoder encodeVariable: 'thisContext'}
 		precedence: 3
 		from: encoder
+		sourceRange: (self sourceRange
+						ifNotNil: [:interval | interval start to: interval start + 1])

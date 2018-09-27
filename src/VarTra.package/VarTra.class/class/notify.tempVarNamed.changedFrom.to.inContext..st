@@ -1,4 +1,4 @@
-as yet unclassified
+notifying subscribers
 notify: subscriptionsBinding tempVarNamed: varName changedFrom: oldValue to: newValue inContext: aContext 
 
 	oldValue == newValue ifFalse: [

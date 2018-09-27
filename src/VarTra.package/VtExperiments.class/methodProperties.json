@@ -1,5 +1,12 @@
 {
 	"class" : {
+		"compilerClass" : "sl 9/27/2018 14:23",
 		"doNothing:" : "sl 9/21/2018 12:23" },
 	"instance" : {
-		"litVar:changedFrom:to:inContext:" : "sl 9/21/2018 19:11" } }
+		"instVar1" : "sl 9/27/2018 14:23",
+		"instVar1:" : "sl 9/27/2018 15:45",
+		"instVar2" : "sl 9/27/2018 15:28",
+		"instVar2:" : "sl 9/27/2018 16:14",
+		"instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/27/2018 14:51",
+		"litVar:changedFrom:to:inContext:" : "sl 9/21/2018 19:11",
+		"starcraft" : "sl 9/27/2018 15:39" } }
