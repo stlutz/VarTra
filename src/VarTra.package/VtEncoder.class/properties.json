@@ -1,0 +1,14 @@
+{
+	"category" : "VarTra-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"subscriptionsNodes" ],
+	"name" : "VtEncoder",
+	"pools" : [
+		 ],
+	"super" : "EncoderForV3PlusClosures",
+	"type" : "normal" }

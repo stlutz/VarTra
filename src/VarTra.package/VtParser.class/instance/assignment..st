@@ -7,7 +7,7 @@ assignment: varNode
 	start := self startOfNextToken.
 	self advance.
 	self expression ifFalse: [^self expected: 'Expression'].
-	parseNode := (varNode isLiteralVariableNode or: [varNode isInstanceVariableNode])
+	parseNode := (varNode isLiteralVariableNode or: [varNode isInstanceVariableNode] or: [varNode isTempVariableNode])
 		ifTrue: [
 			VtTrackedAssignmentNode new
 				variable: varNode

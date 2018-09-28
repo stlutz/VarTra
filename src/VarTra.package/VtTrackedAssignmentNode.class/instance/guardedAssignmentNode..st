@@ -2,7 +2,7 @@ node generation
 guardedAssignmentNode: encoder
 
 	| subscriptionsNode |
-	subscriptionsNode := self subscriptionsNode: encoder.
+	subscriptionsNode := encoder subscriptionsNodeFor: self variable.
 	^ MessageNode new
 		receiver: subscriptionsNode
 		selector: #ifNil:ifNotNil:
