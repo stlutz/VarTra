@@ -4,9 +4,11 @@
 		"doNothing:" : "sl 9/21/2018 12:23" },
 	"instance" : {
 		"instVar1" : "sl 9/27/2018 14:23",
-		"instVar1:" : "sl 9/28/2018 11:01",
+		"instVar1:" : "sl 9/29/2018 08:48",
 		"instVar2" : "sl 9/27/2018 15:28",
 		"instVar2:" : "sl 9/28/2018 10:53",
 		"instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/27/2018 14:51",
 		"litVar:changedFrom:to:inContext:" : "sl 9/21/2018 19:11",
-		"starcraft" : "sl 9/27/2018 15:39" } }
+		"starcraft" : "sl 9/27/2018 15:39",
+		"tempVarNamed:changedFrom:to:inContext:" : "sl 9/29/2018 08:47",
+		"testTemp" : "sl 9/29/2018 08:49" } }

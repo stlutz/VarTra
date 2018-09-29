@@ -1,0 +1,4 @@
+initialize-release
+initialize
+
+	CompiledCode installPrimaryBytecodeSet: VtEncoder
