@@ -1,4 +1,4 @@
 accessing
 accept: aVisitor
 
-	^ self actualNode accept: aVisitor
+	^ aVisitor visitTrackedAssignmentNode: self

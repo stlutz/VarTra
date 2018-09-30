@@ -1,4 +1,4 @@
 code generation
 sizeCodeForValue: encoder
 
-	^ (self actualNode: encoder) sizeCodeForValue: encoder
+	^ self sizeCode: encoder forValue: true

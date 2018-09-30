@@ -12,7 +12,7 @@ codeMessage: receiver selector: selector arguments: arguments
 				| originalReceiver |
 				originalReceiver := receiver receiver.
 				^ (originalReceiver isLiteralVariableNode and: [originalReceiver key isSubscriptionsBinding])
-					ifTrue: [	VtTrackedAssignmentNode new setActualNode: node]
+					ifTrue: [	self halt]
 					ifFalse: [node]].
 	^MessageNode new
 			receiver: receiver

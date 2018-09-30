@@ -1,11 +1,11 @@
 node generation
-trackedAssignmentNode: encoder subscriptions: subscriptionsNode
+generateNotificationNode: encoder
 
 	^ MessageNode new
 		receiver: (encoder encodeVariable: 'VarTra')
 		selector: self changeNotificationSelector
 		arguments:
-			{encoder encodeLiteral: subscriptionsNode key}
+			{encoder encodeLiteral: (self subscriptionsNode: encoder) key}
 			,
 			{encoder encodeLiteral: (
 				self variable isLiteralVariableNode
@@ -16,8 +16,8 @@ trackedAssignmentNode: encoder subscriptions: subscriptionsNode
 				ifTrue: [{encoder encodeVariable: 'self'}]
 				ifFalse: [#()])
 			,
-			{self variable.
-			self assignmentNode: encoder.
+			{encoder varTraRegister.
+			self variable.
 			encoder encodeVariable: 'thisContext'}
 		precedence: 3
 		from: encoder

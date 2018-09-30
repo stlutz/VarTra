@@ -1,4 +1,5 @@
 initialize-release
 initialize
 
-	CompiledCode installPrimaryBytecodeSet: VtEncoder
+	CompiledCode installPrimaryBytecodeSet: VtEncoder.
+	VtCompiler recompileAll

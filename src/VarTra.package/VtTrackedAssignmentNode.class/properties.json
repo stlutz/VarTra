@@ -9,7 +9,12 @@
 		"variable",
 		"value",
 		"sourceRange",
-		"actualNode" ],
+		"actualNode",
+		"subscriptionsNode",
+		"notificationNode",
+		"untrackedSize",
+		"trackedSize",
+		"varTraRegister" ],
 	"name" : "VtTrackedAssignmentNode",
 	"pools" : [
 		 ],

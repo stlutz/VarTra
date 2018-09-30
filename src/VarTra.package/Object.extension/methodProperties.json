@@ -4,4 +4,5 @@
 	"instance" : {
 		"instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/21/2018 13:19",
 		"litVar:changedFrom:to:inContext:" : "sl 9/21/2018 13:20",
-		"tempVarNamed:changedFrom:to:inContext:" : "sl 9/21/2018 13:20" } }
+		"tempVarNamed:changedFrom:to:inContext:" : "sl 9/21/2018 13:20",
+		"testDupTemps" : "sl 9/29/2018 14:32" } }

@@ -1,4 +1,4 @@
 code generation
 sizeCodeForEffect: encoder
 
-	^ (self actualNode: encoder) sizeCodeForEffect: encoder
+	^ self sizeCode: encoder forValue: false
