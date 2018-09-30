@@ -1,5 +1,5 @@
 node generation
 varTraRegister: encoder
 
-	varTraRegister ifNil: [
+	^ varTraRegister ifNil: [
 		varTraRegister := encoder varTraRegister]

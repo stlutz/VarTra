@@ -21,5 +21,5 @@ generateNotificationNode: encoder
 			encoder encodeVariable: 'thisContext'}
 		precedence: 3
 		from: encoder
-		sourceRange: (self sourceRange
+		sourceRange: ((encoder sourceRangeFor: self)
 						ifNotNil: [:interval | interval start to: interval start + 1])

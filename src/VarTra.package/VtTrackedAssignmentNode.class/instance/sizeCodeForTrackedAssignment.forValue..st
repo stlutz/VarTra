@@ -3,7 +3,7 @@ sizeCodeForTrackedAssignment: encoder forValue: forValue
 
 	^ trackedSize ifNil: [trackedSize := 
 		(variable sizeCodeForValue: encoder)
-		+ ((encoder varTraRegister) sizeCodeForStorePop: encoder)
+		+ ((self varTraRegister: encoder) sizeCodeForStorePop: encoder)
 		+ (forValue
 			ifTrue: [	variable sizeCodeForStore: encoder]
 			ifFalse: [variable sizeCodeForStorePop: encoder])

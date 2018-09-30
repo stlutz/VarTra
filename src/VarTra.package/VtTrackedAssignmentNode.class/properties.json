@@ -8,8 +8,6 @@
 	"instvars" : [
 		"variable",
 		"value",
-		"sourceRange",
-		"actualNode",
 		"subscriptionsNode",
 		"notificationNode",
 		"untrackedSize",

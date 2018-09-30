@@ -15,7 +15,7 @@ emitCode: stack forValue: forValue encoder: encoder
 	self emitCodeForBranchOn: true dist: thenSize pop: stack encoder: encoder.
 	"tracked assignment"
 	variable emitCodeForValue: stack encoder: encoder.
-	(encoder varTraRegister) emitCodeForStorePop: stack encoder: encoder.
+	(self varTraRegister: encoder) emitCodeForStorePop: stack encoder: encoder.
 	forValue
 		ifTrue: [	variable emitCodeForStore: stack encoder: encoder]
 		ifFalse: [variable emitCodeForStorePop: stack encoder: encoder].
