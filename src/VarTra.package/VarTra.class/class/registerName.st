@@ -1,4 +1,4 @@
 private
 registerName
 
-	^ 'VarTra:Register'
+	^ #'VarTra:Register'

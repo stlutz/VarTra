@@ -1,7 +1,7 @@
 initialize-release
-variable: aVariable value: expression from: encoder sourceRange: interval
+variable: aVariable value: expression from: encoder sourceRange: range
 
-	sourceRange := interval.
+	encoder noteSourceRange: range forNode: self..
 	self
 		variable: aVariable
 		value: expression

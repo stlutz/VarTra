@@ -7,7 +7,7 @@ emitCode: stack forValue: forValue encoder: encoder
 	variable emitCodeForLoad: stack forValue: forValue encoder: encoder.
 	"evaluate expression"
 	value emitCodeForValue: stack encoder: encoder.
-	pc := encoder nextPC. "mabye? dunno"
+	pc := encoder nextPC. "maybe? dunno"
 	"guard"
 	(self subscriptionsNode: encoder) emitCodeForValue: stack encoder: encoder.
 	encoder genPushSpecialLiteral: nil. stack push: 1.
@@ -22,8 +22,8 @@ emitCode: stack forValue: forValue encoder: encoder
 	(self notificationNode: encoder) emitCodeForEffect: stack encoder: encoder.
 	self emitCodeForJump: elseSize encoder: encoder.
 	"untracked assignment"
-	stack push: 1. "theres is a pop in both branches of the conditional
-	if this part of the code is really executed, there should be exactly one item on the stack"
+	stack push: 1. "theres a pop in both branches of the conditional
+	if this part of the code is executed, there should be exactly one item on the stack"
 	forValue
 		ifTrue: [variable emitCodeForStore: stack encoder: encoder]
 		ifFalse: [variable emitCodeForStorePop: stack encoder: encoder].

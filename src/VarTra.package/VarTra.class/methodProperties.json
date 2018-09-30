@@ -11,7 +11,7 @@
 		"notify:instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/27/2018 15:56",
 		"notify:litVar:changedFrom:to:inContext:" : "sl 9/21/2018 18:52",
 		"notify:tempVarNamed:changedFrom:to:inContext:" : "sl 9/21/2018 13:36",
-		"registerName" : "sl 9/30/2018 13:34",
+		"registerName" : "sl 9/30/2018 20:00",
 		"reset" : "sl 9/27/2018 15:15",
 		"subscribe:toInstVarNamed:ofObject:" : "sl 9/28/2018 12:53",
 		"subscribe:toLitVar:" : "sl 9/21/2018 18:51",
