@@ -10,16 +10,20 @@ emitCode: stack forValue: forValue encoder: encoder
 	pc := encoder nextPC. "maybe? dunno"
 	"guard"
 	(self subscriptionsNode: encoder) emitCodeForValue: stack encoder: encoder.
-	encoder genPushSpecialLiteral: nil. stack push: 1.
+	NodeNil emitCodeForValue: stack encoder: encoder.
 	(encoder encodeSelector: #==) emitCode: stack args: 1 encoder: encoder.
 	self emitCodeForBranchOn: true dist: thenSize pop: stack encoder: encoder.
 	"tracked assignment"
-	variable emitCodeForValue: stack encoder: encoder.
-	(self varTraRegister: encoder) emitCodeForStorePop: stack encoder: encoder.
+	(AssignmentNode new
+		variable: (self varTraRegister: encoder)
+		value: variable) emitCodeForEffect: stack encoder: encoder. "save the old value"
 	forValue
 		ifTrue: [	variable emitCodeForStore: stack encoder: encoder]
 		ifFalse: [variable emitCodeForStorePop: stack encoder: encoder].
 	(self notificationNode: encoder) emitCodeForEffect: stack encoder: encoder.
+	(AssignmentNode new
+		variable: (self varTraRegister: encoder)
+		value: NodeNil) emitCodeForEffect: stack encoder: encoder.
 	self emitCodeForJump: elseSize encoder: encoder.
 	"untracked assignment"
 	stack push: 1. "theres a pop in both branches of the conditional

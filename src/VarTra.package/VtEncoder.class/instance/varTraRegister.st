@@ -1,7 +1,7 @@
 accessing
 varTraRegister
 
-	^ scopeTable
-		at: VarTra registerName
-		ifAbsentPut: [
-			self newTemp: VarTra registerName] 
+	^ varTraRegister ifNil: [
+		| name |
+		name := VarTra registerName.
+		varTraRegister := self global: name -> nil name: name]

@@ -1,4 +1,4 @@
-as yet unclassified
+private
 constructorForMethod: aMethod
 
 	^ VtDecompilerConstructor new

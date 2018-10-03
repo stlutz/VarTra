@@ -1,0 +1,4 @@
+*VarTra
+isNilNode
+
+	^ self == NodeNil

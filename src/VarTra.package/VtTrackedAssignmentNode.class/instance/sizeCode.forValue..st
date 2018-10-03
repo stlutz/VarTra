@@ -7,7 +7,7 @@ sizeCode: encoder forValue: forValue
 	^ (variable sizeCodeForLoad: encoder forValue: forValue)
 		+ (value sizeCodeForValue: encoder)
 		+ ((self subscriptionsNode: encoder) sizeCodeForValue: encoder)
-		+ (encoder sizePushSpecialLiteral: nil)
+		+ (NodeNil sizeCodeForValue: encoder)
 		+ ((encoder encodeSelector: #==) sizeCode: encoder args: 1 super: false)
 		+ (self sizeCode: encoder forBranchOn: true dist: thenSize)
 		+ thenSize
