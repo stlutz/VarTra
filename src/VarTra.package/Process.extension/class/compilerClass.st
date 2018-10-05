@@ -1,0 +1,4 @@
+*VarTra
+compilerClass
+
+	^ Compiler

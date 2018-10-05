@@ -1,4 +1,4 @@
 *VarTra
-reserve: encoder 
-	"If this is a yet unused literal of type -code, reserve it."
+reserve: encoder
+	"share behavior with all other LeafNodes"
 	super reserve: encoder

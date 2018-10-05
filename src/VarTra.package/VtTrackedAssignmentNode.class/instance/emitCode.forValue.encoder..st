@@ -18,7 +18,7 @@ emitCode: stack forValue: forValue encoder: encoder
 		variable: (self varTraRegister: encoder)
 		value: variable) emitCodeForEffect: stack encoder: encoder. "save the old value"
 	forValue
-		ifTrue: [	variable emitCodeForStore: stack encoder: encoder]
+		ifTrue: [variable emitCodeForStore: stack encoder: encoder]
 		ifFalse: [variable emitCodeForStorePop: stack encoder: encoder].
 	(self notificationNode: encoder) emitCodeForEffect: stack encoder: encoder.
 	(AssignmentNode new
@@ -26,8 +26,9 @@ emitCode: stack forValue: forValue encoder: encoder
 		value: NodeNil) emitCodeForEffect: stack encoder: encoder.
 	self emitCodeForJump: elseSize encoder: encoder.
 	"untracked assignment"
-	stack push: 1. "theres a pop in both branches of the conditional
-	if this part of the code is executed, there should be exactly one item on the stack"
 	forValue
 		ifTrue: [variable emitCodeForStore: stack encoder: encoder]
-		ifFalse: [variable emitCodeForStorePop: stack encoder: encoder].
+		ifFalse: [
+			stack push: 1. "theres a pop in both branches of the conditional
+			if this part of the code is executed, there should be exactly one item on the stack"
+			variable emitCodeForStorePop: stack encoder: encoder].
