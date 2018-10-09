@@ -2,6 +2,12 @@ initialize-release
 initializeClassesNotToTrack
 
 	ClassesNotToTrack := Bag withAll: {
+		Object.
+		Behavior.
+		Class.
+		ClassDescription.
+		Metaclass.
+	
 		VarTra.
 		VtDecompiler.
 		VtCompiler.		

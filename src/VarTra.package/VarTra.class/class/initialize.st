@@ -2,4 +2,5 @@ initialize-release
 initialize
 
 	self initializeClassesNotToTrack.
-	CompiledCode installPrimaryBytecodeSet: VtEncoder
+	(UIManager default confirm: 'Install VarTra?') ifTrue: [
+		self install]

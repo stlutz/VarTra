@@ -1,14 +1,15 @@
 {
 	"class" : {
 		"classesNotToTrack" : "sl 10/3/2018 18:55",
-		"compileMethodsWithVariableTracking" : "sl 9/29/2018 09:50",
+		"compileMethodsWithVariableTracking" : "sl 10/5/2018 17:46",
 		"compileMethodsWithVariableTracking:" : "sl 9/27/2018 10:08",
 		"compilerClass" : "sl 9/27/2018 16:13",
 		"compilerClassFor:" : "sl 10/3/2018 18:54",
-		"initialize" : "sl 10/3/2018 18:56",
-		"initializeClassesNotToTrack" : "sl 10/3/2018 19:04",
+		"initialize" : "sl 10/5/2018 15:08",
+		"initializeClassesNotToTrack" : "sl 10/5/2018 15:34",
 		"instVarSubscriptionsBindings" : "sl 9/27/2018 14:12",
 		"instVarSubscriptionsBindingsForClass:" : "sl 9/27/2018 14:15",
+		"install" : "sl 10/5/2018 17:38",
 		"litVarSubscriptionsBindings" : "sl 9/21/2018 11:15",
 		"notify:instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/27/2018 15:56",
 		"notify:litVar:changedFrom:to:inContext:" : "sl 9/21/2018 18:52",

@@ -1,7 +1,6 @@
 *VarTra
 compilerClass
 	"Answer a compiler class appropriate for source methods of this class."
-	^ self environment
-		at: #VarTra
-		ifPresent: [:vartra | vartra compilerClassFor: self]
-		ifAbsent: [Compiler]
+	^ [VarTra compilerClassFor: self]
+		on: Error
+		do: [Compiler]
