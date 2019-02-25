@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"activeInstVarSubscriptionsBindings" : "sl 2/25/2019 12:46",
+		"activeLitVarSubscriptionsBindings" : "sl 2/25/2019 12:22",
 		"classesNotToTrack" : "sl 10/3/2018 18:55",
 		"compileMethodsWithVariableTracking" : "sl 10/5/2018 17:46",
 		"compileMethodsWithVariableTracking:" : "sl 9/27/2018 10:08",
