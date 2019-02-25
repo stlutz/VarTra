@@ -1,7 +1,10 @@
 subscriptions management
 subscriptionsBindingForInstVarNamed: instVarName ofClass: aClass
 
-	^ (self instVarSubscriptionsBindingsForClass: aClass)
-		at: instVarName asSymbol
-		ifAbsentPut: [
-			(self subscriptionsBindingKeyPrefix , aClass , ':' , instVarName) asSymbol -> nil]
+	^ (aClass classThatDefinesInstanceVariable: instVarName)
+		ifNotNil: [:cls |
+			(self instVarSubscriptionsBindingsForClass: cls)
+				at: instVarName asSymbol
+				ifAbsentPut: [
+					(self subscriptionsBindingKeyPrefix , cls , ':' , instVarName) asSymbol -> nil]]
+		ifNil: [self error: 'Unknown instance variable']

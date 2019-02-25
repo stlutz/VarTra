@@ -1,4 +1,4 @@
-notifying subscribers
+triggers
 notify: subscriptionsBinding tempVarNamed: varName changedFrom: oldValue to: newValue inContext: aContext 
 
 	oldValue == newValue ifFalse: [
