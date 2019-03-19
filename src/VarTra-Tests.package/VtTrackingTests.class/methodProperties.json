@@ -28,5 +28,6 @@
 		"testIgnoredAssignment" : "stlu 3/18/2019 22:43",
 		"testNestedAssignment" : "stlu 3/18/2019 22:44",
 		"testSimpleAssignment" : "stlu 3/18/2019 22:46",
+		"testSubscriberIsNotStronglyReferenced" : "stlu 3/19/2019 23:45",
 		"testUnsubscribingStopsNotifications" : "stlu 3/19/2019 13:09",
 		"trackedVariable" : "stlu 3/2/2019 09:36" } }

@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"newPublisher" : "stlu 3/11/2019 15:20",
+		"newPublisher" : "stlu 3/19/2019 23:55",
+		"testPublisherIsNotStronglyReferenced" : "stlu 3/20/2019 00:06",
+		"trackVariable" : "stlu 3/19/2019 23:55",
 		"untrackVariable" : "stlu 3/19/2019 13:11" } }

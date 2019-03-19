@@ -1,4 +1,4 @@
-tests - notifications
+tests
 testUnsubscribingStopsNotifications
 
 	self simpleAssignment: 42.
