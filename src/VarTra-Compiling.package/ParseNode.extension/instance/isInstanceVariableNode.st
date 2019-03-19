@@ -1,0 +1,4 @@
+*VarTra-Compiling
+isInstanceVariableNode
+
+	^ false

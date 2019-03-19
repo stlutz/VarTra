@@ -1,0 +1,4 @@
+*VarTra-Compiling
+isTempVariableNode
+
+	^ false

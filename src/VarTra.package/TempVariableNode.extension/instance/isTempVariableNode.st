@@ -1,4 +1,0 @@
-*VarTra
-isTempVariableNode
-
-	^ true
