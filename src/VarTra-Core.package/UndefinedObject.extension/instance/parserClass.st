@@ -1,4 +1,4 @@
-*VarTra-Compiling
+*VarTra-Core
 parserClass
 
 	^ self class parserClass

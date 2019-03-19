@@ -1,4 +1,4 @@
-*VarTra-Compiling
+*VarTra-Core
 compilerClass
 	^self methodClass 
 		ifNil: [Compiler] 

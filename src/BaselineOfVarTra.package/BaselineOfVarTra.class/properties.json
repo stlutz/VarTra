@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfVarTra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfVarTra",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

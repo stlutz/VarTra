@@ -1,4 +1,4 @@
-*VarTra-Compiling
+*VarTra-Core
 compilerClass
 	"Answer a compiler class appropriate for source methods of this class."
 	^ [VarTra compilerClassFor: self]
