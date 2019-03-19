@@ -10,5 +10,5 @@
 	"name" : "BaselineOfVarTra",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "BaselineOf",
 	"type" : "normal" }
