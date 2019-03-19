@@ -1,6 +1,5 @@
-initialize-release
+initialization
 initialize
 
 	self initializeClassesNotToTrack.
-	(UIManager default confirm: 'Install VarTra?') ifTrue: [
-		self install]
+	self install "I would prefer to warn the user first, but that breaks travisci"

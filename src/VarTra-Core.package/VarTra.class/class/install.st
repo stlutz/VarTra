@@ -1,4 +1,4 @@
-initialize-release
+initialization
 install
 
 	self reset.
