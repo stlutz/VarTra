@@ -1,5 +1,5 @@
 class initialization
-initiailize
+initialize
 
 	self environment at: #VtMockGlobal put: nil.
 	self environment at: #VtOtherMockGlobal put: nil

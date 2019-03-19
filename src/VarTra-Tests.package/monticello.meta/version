@@ -1,1 +1,1 @@
-(name 'VarTra-Tests-stlu.1' message 'empty log message' id '2fd3a349-5926-43af-8469-4a7862b2e509' date '19 March 2019' time '1:23:06.539898 pm' author 'stlu' ancestors () stepChildren ())
+(name 'VarTra-Tests-stlu.2' message 'empty log message' id '873dee5a-b3a6-428b-9783-86e20d041142' date '19 March 2019' time '2:44:24.921471 pm' author 'stlu' ancestors ((name 'VarTra-Tests-stlu.1' message 'empty log message' id '2fd3a349-5926-43af-8469-4a7862b2e509' date '19 March 2019' time '1:23:06.539898 pm' author 'stlu' ancestors () stepChildren ())) stepChildren ())

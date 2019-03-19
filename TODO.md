@@ -6,4 +6,3 @@
     - no (not weak) references to bindings (litVar)
   - correct subscriptions
 - change lookup of instVar bindings so that the correct binding is found when building classes (before becomeForward:)
-- activate CI
