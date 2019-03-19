@@ -1,0 +1,21 @@
+SmalltalkCISpec {
+	#loading : [
+		SCIMetacelloLoadSpec {
+			#baseline : 'VarTra',
+			#directory : 'src',
+			#onWarningLog : true,
+			#useLatestMetacello : false,
+			#load : [ 'CompleteWithTests' ],
+			#platforms : [ #squeak ]
+		}
+	],
+	#testing : {
+		#categories : [ 'VarTra-Tests' ],
+		#failOnZeroTests : true,
+		#hidePassingTests : true,
+		#defaultTimeout : 30,
+		#coverage: {
+			#categories : [ 'VarTra-Core' ]
+		}
+	}
+}
