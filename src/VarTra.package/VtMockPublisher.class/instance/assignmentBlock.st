@@ -1,0 +1,4 @@
+assigning
+assignmentBlock
+
+	self subclassResponsibility

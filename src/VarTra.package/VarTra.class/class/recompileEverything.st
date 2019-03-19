@@ -13,7 +13,7 @@ recompileEverything
 					[class recompile: method selector from: class]
 						on: Error , Halt
 						do: [:error |
-								Transcript nextPutAll: 'Failed to track '.
+								Transcript nextPutAll: 'Failed to install variable tracking into '.
 								method methodReference printOn: Transcript.
 								Transcript cr].
 					methodBar value: methodIndex]].

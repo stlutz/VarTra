@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"blockWithAssignmentInArrayExpression" : "stlu 3/18/2019 23:52",
+		"blockWithAssignmentInMessage" : "stlu 3/18/2019 23:52",
+		"blockWithConsecutiveAssignments" : "stlu 3/18/2019 23:52",
+		"blockWithIgnoredAssignment" : "stlu 3/18/2019 23:53",
+		"blockWithNestedAssignment" : "stlu 3/18/2019 23:53",
+		"blockWithSimpleAssignment" : "stlu 3/18/2019 23:52" } }

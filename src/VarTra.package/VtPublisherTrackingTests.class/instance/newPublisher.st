@@ -1,0 +1,4 @@
+publisher
+newPublisher
+
+	self subclassResponsibility

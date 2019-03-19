@@ -1,0 +1,4 @@
+assignment types
+blockWithAssignment
+
+	self subclassResponsibility

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"initiailize" : "stlu 3/11/2019 09:42" },
+	"instance" : {
+		"assign:then:then:" : "stlu 3/11/2019 09:43",
+		"assignmentBlock" : "stlu 3/11/2019 09:44",
+		"assignmentInArrayExpression:" : "stlu 3/11/2019 09:44",
+		"assignmentInMessage:" : "stlu 3/13/2019 09:25",
+		"ignoredAssignment:" : "stlu 3/13/2019 09:25",
+		"inheritedAssignment:" : "stlu 3/13/2019 09:26",
+		"initialize" : "stlu 3/11/2019 12:31",
+		"nestedAssignment:" : "stlu 3/13/2019 09:27",
+		"returnedAssignment:" : "stlu 3/13/2019 09:27",
+		"shadowedAssignment:" : "stlu 3/13/2019 09:28",
+		"simpleAssignment:" : "stlu 3/13/2019 09:28" } }

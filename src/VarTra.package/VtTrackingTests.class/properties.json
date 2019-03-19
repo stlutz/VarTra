@@ -1,0 +1,15 @@
+{
+	"category" : "VarTra-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"trackedVariable",
+		"notifications" ],
+	"name" : "VtTrackingTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

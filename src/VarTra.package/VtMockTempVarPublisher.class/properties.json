@@ -1,0 +1,14 @@
+{
+	"category" : "VarTra-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VtMockTempVarPublisher",
+	"pools" : [
+		 ],
+	"super" : "VtMockPublisher",
+	"type" : "normal" }

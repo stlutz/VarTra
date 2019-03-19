@@ -1,0 +1,4 @@
+accessing
+publisher
+
+	^ VtMockTempVarPublisher new

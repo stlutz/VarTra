@@ -1,7 +1,7 @@
 initialize-release
 initializeClassesNotToTrack
 
-	ClassesNotToTrack := Bag withAll: {
+	ClassesNotToTrack := Set withAll: {
 		Object.
 		Behavior.
 		Class.

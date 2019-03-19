@@ -1,0 +1,4 @@
+assignment types
+assignmentInArrayExpression: aValue
+
+	self subclassResponsibility

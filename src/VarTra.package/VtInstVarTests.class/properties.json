@@ -1,0 +1,14 @@
+{
+	"category" : "VarTra-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "VtInstVarTests",
+	"pools" : [
+		 ],
+	"super" : "VtPublisherTrackingTests",
+	"type" : "normal" }
