@@ -3,5 +3,5 @@ trackVariable
 
 	VarTra
 		subscribe: self
-		toInstVarNamed: (trackedVariable at: #name)
-		ofObject: (trackedVariable at: #source)
+		toInstVarNamed: (self trackedVariable at: #name)
+		ofObject: (self trackedVariable at: #source)

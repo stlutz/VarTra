@@ -3,4 +3,4 @@ untrackVariable
 
 	VarTra
 		unsubscribe: self
-		fromLitVar: (trackedVariable at: #binding)
+		fromLitVar: (self trackedVariable at: #binding)

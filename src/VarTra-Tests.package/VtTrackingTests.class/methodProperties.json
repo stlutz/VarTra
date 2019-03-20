@@ -18,7 +18,7 @@
 		"nestedAssignment:" : "stlu 3/18/2019 22:58",
 		"notifications" : "stlu 3/2/2019 08:12",
 		"simpleAssignment:" : "stlu 3/18/2019 22:57",
-		"tearDown" : "stlu 3/19/2019 13:12",
+		"tearDown" : "stlu 3/20/2019 13:13",
 		"tempVarNamed:changedFrom:to:inContext:" : "stlu 3/2/2019 10:12",
 		"tempVarNamed:ofContext:" : "stlu 3/10/2019 23:08",
 		"testAssignmentInArrayExpression" : "stlu 3/18/2019 22:38",
@@ -30,4 +30,6 @@
 		"testSimpleAssignment" : "stlu 3/18/2019 22:46",
 		"testSubscriberIsNotStronglyReferenced" : "stlu 3/19/2019 23:45",
 		"testUnsubscribingStopsNotifications" : "stlu 3/19/2019 13:09",
-		"trackedVariable" : "stlu 3/2/2019 09:36" } }
+		"trackVariable" : "stlu 3/20/2019 12:59",
+		"trackedVariable" : "stlu 3/2/2019 09:36",
+		"untrackVariable" : "stlu 3/20/2019 12:57" } }

@@ -1,4 +1,4 @@
-tests
+assignment types
 ignoredAssignment: aValue
 
 	self block: self publisher blockWithIgnoredAssignment.

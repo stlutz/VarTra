@@ -1,4 +1,4 @@
-tests
+assignment types
 assignmentInArrayExpression: aValue
 
 	self block: self publisher blockWithAssignmentInArrayExpression.

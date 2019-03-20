@@ -1,4 +1,4 @@
-tests
+assignment types
 nestedAssignment: aValue
 
 	self block: self publisher blockWithNestedAssignment.

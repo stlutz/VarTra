@@ -2,8 +2,10 @@ tests
 testPublisherIsNotStronglyReferenced
 
 	| inboundBeforeTracking newInbound |
-	self publisher; untrackVariable.
-	inboundBeforeTracking := self publisher inboundPointers.
+	self simpleAssignment: 42.
+	
+	self untrackVariable.
+	inboundBeforeTracking := (self trackedVariable at: #source) inboundPointers.
 	self trackVariable.
 	
 	newInbound := self publisher inboundPointersExcluding: inboundBeforeTracking.

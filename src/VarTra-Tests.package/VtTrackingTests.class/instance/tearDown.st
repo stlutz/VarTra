@@ -2,5 +2,5 @@ running
 tearDown
 
 	notifications := nil.
-	trackedVariable ifNotNil: [self untrackVariable].
+	self trackedVariable ifNotNil: [self untrackVariable].
 	trackedVariable := nil

@@ -3,5 +3,5 @@ untrackVariable
 
 	VarTra
 		unsubscribe: self
-		fromTempVarNamed: (trackedVariable at: #name)
-		ofContext: (trackedVariable at: #context)
+		fromTempVarNamed: (self trackedVariable at: #name)
+		ofContext: (self trackedVariable at: #context)

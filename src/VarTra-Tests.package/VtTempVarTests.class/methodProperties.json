@@ -6,11 +6,13 @@
 		"assignmentInArrayExpression:" : "stlu 3/18/2019 23:54",
 		"assignmentInMessage:" : "stlu 3/18/2019 23:51",
 		"block" : "stlu 3/18/2019 23:33",
-		"block:" : "stlu 3/19/2019 00:00",
+		"block:" : "stlu 3/20/2019 13:07",
 		"blockWithAssignment" : "stlu 3/18/2019 23:56",
 		"ignoredAssignment:" : "stlu 3/18/2019 23:57",
 		"nestedAssignment:" : "stlu 3/18/2019 23:57",
 		"publisher" : "stlu 3/18/2019 23:36",
 		"simpleAssignment:" : "stlu 3/18/2019 23:54",
 		"tearDown" : "stlu 3/19/2019 13:15",
-		"untrackVariable" : "stlu 3/18/2019 23:47" } }
+		"testContextIsNotStronglyReferenced" : "stlu 3/20/2019 13:10",
+		"trackVariable" : "stlu 3/20/2019 13:07",
+		"untrackVariable" : "stlu 3/20/2019 13:07" } }

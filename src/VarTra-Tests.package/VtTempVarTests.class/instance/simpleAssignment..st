@@ -1,4 +1,4 @@
-tests
+assignment types
 simpleAssignment: aValue
 
 	self block: self publisher blockWithSimpleAssignment.
