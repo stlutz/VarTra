@@ -2,3 +2,5 @@
   - correct subscriptions
   - dont break after class modifications
 - change lookup of instVar bindings so that the correct binding is found when building classes (before becomeForward:)
+- add to README
+  - usage
