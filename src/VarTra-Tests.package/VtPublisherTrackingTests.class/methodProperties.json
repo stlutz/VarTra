@@ -6,6 +6,7 @@
 		"assignmentInArrayExpression:" : "stlu 3/18/2019 22:39",
 		"assignmentInMessage:" : "stlu 3/18/2019 22:41",
 		"blockWithAssignment" : "stlu 3/18/2019 22:40",
+		"duplicatedVariableNameAssignment:" : "stlu 9/30/2020 14:48",
 		"ignoredAssignment:" : "stlu 3/18/2019 22:43",
 		"inheritedAssignment:" : "stlu 3/18/2019 22:43",
 		"nestedAssignment:" : "stlu 3/18/2019 22:44",
@@ -15,6 +16,7 @@
 		"shadowedAssignment:" : "stlu 3/18/2019 22:45",
 		"simpleAssignment:" : "stlu 3/18/2019 22:45",
 		"tearDown" : "stlu 3/19/2019 13:13",
+		"testDuplicatedVariableNameAssignment" : "stlu 9/30/2020 14:50",
 		"testInheritedAssignment" : "stlu 3/18/2019 22:43",
 		"testReturnedAssignment" : "stlu 3/18/2019 22:45",
 		"testShadowedAssignment" : "stlu 3/18/2019 22:45" } }

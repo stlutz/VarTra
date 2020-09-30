@@ -1,0 +1,4 @@
+assignment types
+duplicatedVariableNameAssignment: aValue
+
+	self publisher duplicatedVariableNameAssignment: aValue

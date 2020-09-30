@@ -1,4 +1,4 @@
 *VarTra-Compiling
 isSubscriptionsBinding
 
-	^ self key beginsWith: VarTra subscriptionsBindingKeyPrefix
+	^ VarTra isSubscriptionsBinding: self

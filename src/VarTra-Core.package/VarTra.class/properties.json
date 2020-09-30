@@ -6,7 +6,8 @@
 		"ClassesNotToTrack",
 		"CompileMethodsWithVariableTracking",
 		"InstVarSubscriptionsBindings",
-		"LitVarSubscriptionsBindings" ],
+		"LitVarSubscriptionsBindings",
+		"SubscriptionsBindingKeyPrefix" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

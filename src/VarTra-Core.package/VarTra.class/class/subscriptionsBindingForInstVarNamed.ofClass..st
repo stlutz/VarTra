@@ -6,5 +6,5 @@ subscriptionsBindingForInstVarNamed: instVarName ofClass: aClass
 			(self instVarSubscriptionsBindingsForClass: cls)
 				at: instVarName asSymbol
 				ifAbsentPut: [
-					(self subscriptionsBindingKeyPrefix , cls , ':' , instVarName) -> nil]]
+					(SubscriptionsBindingKeyPrefix , 'Inst:' , instVarName) -> nil]]
 		ifNil: [self error: 'Unknown instance variable']

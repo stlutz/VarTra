@@ -1,4 +1,4 @@
 *VarTra-Compiling
 lookupSubscriptionsBinding: encoder
 
-	^ VarTra subscriptionsBindingForTempVarNamed: self name
+	^ VarTra subscriptionsBindingForTempVarNamed: name

@@ -1,4 +1,4 @@
-private
+accessing
 subscriptionsBindingKeyPrefix
 
-	^ 'VarTraSubs:'
+	^ SubscriptionsBindingKeyPrefix

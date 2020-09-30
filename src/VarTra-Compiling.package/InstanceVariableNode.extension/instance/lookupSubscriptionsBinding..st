@@ -2,5 +2,5 @@
 lookupSubscriptionsBinding: encoder
 
 	^ VarTra
-		subscriptionsBindingForInstVarNamed: self name
+		subscriptionsBindingForInstVarNamed: name
 		ofClass: encoder classEncoding

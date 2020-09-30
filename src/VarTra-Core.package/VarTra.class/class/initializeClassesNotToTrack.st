@@ -8,7 +8,7 @@ initializeClassesNotToTrack
 		ClassDescription.
 		Metaclass.
 	
-		VarTra.
+		self.
 		VtDecompiler.
 		VtCompiler.		
 		

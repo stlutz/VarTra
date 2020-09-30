@@ -1,4 +1,4 @@
-triggers
+notifications
 notify: subscriptionsBinding instVarNamed: varName ofObject: source changedFrom: oldValue to: newValue inContext: aContext
 
 	oldValue == newValue ifFalse: [

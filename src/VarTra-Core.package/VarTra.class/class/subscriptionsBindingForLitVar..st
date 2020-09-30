@@ -4,4 +4,4 @@ subscriptionsBindingForLitVar: litVarBinding
 	^ self litVarSubscriptionsBindings
 		at: litVarBinding
 		ifAbsentPut: [
-			(self subscriptionsBindingKeyPrefix , litVarBinding key) -> nil]
+			(SubscriptionsBindingKeyPrefix , 'Lit:' , litVarBinding key) -> nil]
