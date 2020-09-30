@@ -1,4 +1,4 @@
-private
+compiling
 compilerClassFor: aClass
 
 	self compileMethodsWithVariableTracking ifFalse: [^ Compiler].

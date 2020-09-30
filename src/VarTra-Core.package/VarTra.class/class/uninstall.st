@@ -1,6 +1,6 @@
 initialization
 uninstall
 
-	self compileMethodsWithVariableTracking: false.
 	self reset.
+	self compileMethodsWithVariableTracking: false.
 	self recompileEverything

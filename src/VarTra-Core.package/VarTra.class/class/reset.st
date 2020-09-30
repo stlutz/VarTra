@@ -1,4 +1,4 @@
-private
+initialization
 reset
 	"VarTra reset"
 	LitVarSubscriptionsBindings := nil.

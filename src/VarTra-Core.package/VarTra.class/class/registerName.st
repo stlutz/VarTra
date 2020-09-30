@@ -1,4 +1,4 @@
-private
+accessing
 registerName
 
 	^ #'Vt:Register'
