@@ -1,6 +1,7 @@
-*VarTra-Core
+*VarTra-Core-override
 compilerClass
 	"Answer a compiler class appropriate for source methods of this class."
-	^ [VarTra compilerClassFor: self]
-		on: Error
-		do: [Compiler]
+	^ Smalltalk
+			at: #VarTra
+			ifPresent: [:vt | vt compilerClassFor: self]
+			ifAbsent: [Compiler]

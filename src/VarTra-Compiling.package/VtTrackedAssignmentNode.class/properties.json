@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"variable",
-		"value",
 		"subscriptionsNode",
 		"notificationNode",
 		"untrackedSize",
@@ -16,5 +14,5 @@
 	"name" : "VtTrackedAssignmentNode",
 	"pools" : [
 		 ],
-	"super" : "ParseNode",
+	"super" : "AssignmentNode",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+expression types
 untrackedAssignmentTo: varNode sourceRange: interval
 
 	^ AssignmentNode new

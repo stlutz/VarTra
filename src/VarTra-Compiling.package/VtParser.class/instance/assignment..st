@@ -1,4 +1,4 @@
-as yet unclassified
+expression types
 assignment: varNode
 	" var ':=' expression => AssignmentNode."
 	| loc start |

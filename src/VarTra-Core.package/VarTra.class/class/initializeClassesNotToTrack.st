@@ -1,7 +1,7 @@
 initialization
 initializeClassesNotToTrack
 
-	ClassesNotToTrack := Set withAll: {
+	ClassesNotToTrack := IdentitySet withAll: {
 		Object.
 		Behavior.
 		Class.
@@ -13,9 +13,11 @@ initializeClassesNotToTrack
 		VtCompiler.		
 		
 		Context.
+		
 		ContextPart.
 		BlockContext.
 		MethodContext.
+		
 		Decompiler.
 		Process
 	}
