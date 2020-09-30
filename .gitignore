@@ -20,3 +20,6 @@ SqueakDebug.log
 # Metacello-github cache
 /github-cache
 github-*.zip
+
+# Monticello meta data
+monticello.meta/
