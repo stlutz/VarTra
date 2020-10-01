@@ -1,4 +1,4 @@
 *VarTra-Compiling
 changeNotificationSelector
 
-	^ #notify:instVarNamed:ofObject:changedFrom:to:inContext:
+	^ #notify:instVarNamed:changedFrom:to:inContext:

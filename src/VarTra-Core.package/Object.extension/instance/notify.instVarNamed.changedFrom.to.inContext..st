@@ -1,9 +1,9 @@
 *VarTra-Core-notifications
-notify: subscriptionsBinding instVarNamed: varName ofObject: source changedFrom: oldValue to: newValue inContext: aContext
+notify: subscriptionsBinding instVarNamed: varName changedFrom: oldValue to: newValue inContext: aContext
 
 	oldValue == newValue ifFalse: [
 		subscriptionsBinding value
-			at: source
+			at: self
 			ifPresent: [:subscriptions |
 				| hasSubscribers |
 				hasSubscribers := false.
@@ -11,12 +11,12 @@ notify: subscriptionsBinding instVarNamed: varName ofObject: source changedFrom:
 					hasSubscribers := true.
 					subscriber
 						instVarNamed: varName
-						ofObject: source
+						ofObject: self
 						changedFrom: oldValue
 						to: newValue
 						inContext: aContext].
 				hasSubscribers ifFalse: [
-					subscriptionsBinding value removeKey: source]]
+					subscriptionsBinding value removeKey: self]]
 			ifAbsent: ["this might not be a good idea for instance variables"
 				subscriptionsBinding value slowSize = 0 ifTrue: [
 					subscriptionsBinding value: nil]]].
