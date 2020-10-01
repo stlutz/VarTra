@@ -14,7 +14,7 @@ baseline: spec
 			group: 'core' with: #('VarTra-Core' 'VarTra-Compiling');
 			group: 'CI' with: #('tests')].
 	
-	spec for: #(#'squeak5.1' #'squeak5.0' #'squeak4.x') do: [
+	spec for: #(#'squeak5.1.x' #'squeak5.0.x' #'squeak4.x') do: [
 		spec
 			package: 'VarTra-Compat51-Compiling';
 			package: 'VarTra-Compiling' with: [
