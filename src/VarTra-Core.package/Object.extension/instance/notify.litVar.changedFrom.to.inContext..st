@@ -1,4 +1,4 @@
-notifications
+*VarTra-Core-notifications
 notify: subscriptionsBinding litVar: litVarBinding changedFrom: oldValue to: newValue inContext: aContext
 
 	oldValue == newValue ifFalse: [

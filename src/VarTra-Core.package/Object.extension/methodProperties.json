@@ -4,4 +4,7 @@
 	"instance" : {
 		"instVarNamed:ofObject:changedFrom:to:inContext:" : "sl 9/21/2018 13:19",
 		"litVar:changedFrom:to:inContext:" : "sl 9/21/2018 13:20",
+		"notify:instVarNamed:ofObject:changedFrom:to:inContext:" : "stlu 10/1/2020 14:57",
+		"notify:litVar:changedFrom:to:inContext:" : "stlu 10/1/2020 14:57",
+		"notify:tempVarNamed:changedFrom:to:inContext:" : "stlu 10/1/2020 14:57",
 		"tempVarNamed:changedFrom:to:inContext:" : "sl 9/21/2018 13:20" } }
