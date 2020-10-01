@@ -8,4 +8,4 @@ generateNotificationNode: encoder
 		precedence: 3
 		from: encoder
 		sourceRange: ((encoder sourceRangeFor: self)
-						ifNotNil: [:interval | interval start to: interval start + 1])
+						ifNotNil: [:interval | interval first to: interval first + 1])
