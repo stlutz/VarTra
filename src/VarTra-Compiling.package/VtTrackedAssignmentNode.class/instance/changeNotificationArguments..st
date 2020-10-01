@@ -3,7 +3,7 @@ changeNotificationArguments: encoder
 
 	^ {encoder encodeVtLiteral: (self subscriptionsNode: encoder) key}
 			,
-			{encoder encodeLiteral: (
+			{encoder encodeVtLiteral: (
 				variable isLiteralVariableNode
 					ifTrue: [variable key]
 					ifFalse: [variable name])}
