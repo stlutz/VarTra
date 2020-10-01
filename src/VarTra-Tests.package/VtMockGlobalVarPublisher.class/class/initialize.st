@@ -4,4 +4,5 @@ initialize
 	Environment current
 		at: #VtMockGlobal put: nil;
 		at: #VtOtherMockGlobal put: nil.
-	self compileAll
+	self compileAll.
+	self superclass compileAll
