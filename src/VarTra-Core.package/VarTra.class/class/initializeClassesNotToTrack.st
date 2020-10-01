@@ -15,5 +15,4 @@ initializeClassesNotToTrack
 		addAll: Compiler withAllSubclasses;
 		addAll: Decompiler withAllSubclasses;
 		addAll: Scanner withAllSubclasses;
-		addAll: Context withAllSubclasses;
 		yourself
