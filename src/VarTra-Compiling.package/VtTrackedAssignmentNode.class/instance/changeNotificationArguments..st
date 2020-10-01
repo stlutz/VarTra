@@ -1,7 +1,7 @@
 node generation
 changeNotificationArguments: encoder
 
-	^ {encoder encodeLiteral: (self subscriptionsNode: encoder) key}
+	^ {encoder encodeVtLiteral: (self subscriptionsNode: encoder) key}
 			,
 			{encoder encodeLiteral: (
 				variable isLiteralVariableNode
