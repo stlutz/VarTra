@@ -1,8 +1,16 @@
 language: smalltalk
-sudo: false
 
 os:
   - linux
+
+jobs:
+  fast_finish: true
+  allow_failures:
+    - smalltalk: Squeak32-4.5
+    - smalltalk: Squeak32-4.6
+    - smalltalk: Squeak32-5.0
+    - smalltalk: Squeak32-5.1
+    - smalltalk: Squeak64-5.1
 
 smalltalk:
   - Squeak64-trunk
