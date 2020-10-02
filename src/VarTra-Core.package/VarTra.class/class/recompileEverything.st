@@ -16,8 +16,9 @@ recompileEverything
 						do: [:error | failedMethods add: method methodReference].
 					methodBar value: methodIndex]].
 			classBar value: classIndex]].
-	Transcript nextPutAll: 'Failed to install variable tracking into:'; cr.
+	Transcript cr; cr; nextPutAll: 'Failed to install variable tracking into:'; cr.
 	failedMethods do: [:methodReference |
 		Transcript tab.
 		methodReference printOn: Transcript.
-		Transcript cr]
+		Transcript cr].
+	Transcript flush
